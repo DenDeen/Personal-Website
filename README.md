@@ -26,4 +26,4 @@ This site is powered by:
 
 ## 💻 Building Site Locally
 
-   ```sphinx-build -b html docs docs/_build/html
+   ```sphinx-build -b html docs docs/_build/html```
