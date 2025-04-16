@@ -1,6 +1,4 @@
-# Personal Website ✨
-
----
+# Personal Website
 
 ## 👋 Welcome!
 

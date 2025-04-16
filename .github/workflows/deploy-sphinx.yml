@@ -1,0 +1,65 @@
+name: Deploy Sphinx site to Pages
+
+on:
+  # Runs on pushes targeting the `source` branch
+  push:
+    branches: [source]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4 # Checks out the 'source' branch code
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10' # Or your preferred Python version
+          cache: 'pip' # Cache pip dependencies
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build with Sphinx
+        # Builds HTML to docs/_build/html directory
+        run: sphinx-build -b html docs docs/_build/html
+
+      - name: Setup Pages
+        # Configures GitHub Pages artifact for deployment
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        # Uploads the built HTML directory as a GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire directory
+          path: './docs/_build/html'
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build # Depends on the build job completing successfully
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
