@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
-    <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=92c1c686" />
+    <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=8fa006a5" />
     
     
 
@@ -209,7 +209,6 @@
 <ul class="current">
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Experiences</a></li>
 <li class="toctree-l1"><a class="reference internal" href="projects.html">Projects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="interests.html">Interests</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 </ul>
 
@@ -253,20 +252,51 @@
         <article role="main" id="furo-main-content">
           <section id="experiences">
 <h1>Experiences<a class="headerlink" href="#experiences" title="Link to this heading">¶</a></h1>
-<section id="professional-research-experience">
-<h2>Professional &amp; Research Experience<a class="headerlink" href="#professional-research-experience" title="Link to this heading">¶</a></h2>
+<section id="professional-experience">
+<h2>Professional Experience<a class="headerlink" href="#professional-experience" title="Link to this heading">¶</a></h2>
 <details class="collapsible-section">
    <summary>
-      <h3>Data Engineer & Researcher (Baekeland Candidate)</h3>
+      <h3>Data Engineer & Researcher</h3>
       <p class="summary-line"><strong>TechWolf</strong>, Ghent, Belgium | Sep 2023 – Nov 2024</p>
    </summary>
-   <div class="details-content"><ul class="simple">
-<li><p><strong>AI Model Development:</strong> Developed and fine-tuned multi-lingual Transformer models (MLST) for skill extraction from diverse HR documents (CVs, job descriptions).</p></li>
-<li><p><strong>Scalable Data Pipelines:</strong> Built and maintained ETL pipelines using PySpark, GCP Dataflow, and BigQuery for efficient processing and loading of large-scale skill data (&gt;1.5B vacancies analyzed).</p></li>
-<li><p><strong>Baekeland Research:</strong> Spearheaded research on dynamic career representation learning. Investigated sequential models (Transformers, LLMs) and time-aware techniques to capture career progression beyond static skill sets.</p></li>
-<li><p><strong>Benchmarking &amp; Ethics:</strong> Contributed to defining novel HR-specific benchmarks (Skill Proficiency, Workforce Planning) and collaborated on responsible AI risk assessments aligned with the EU AI Act.</p></li>
-<li><p><strong>Tech:</strong> Python, PyTorch, Transformers, LLMs, PySpark, GCP (BigQuery, Dataflow, Vertex AI), Docker, Kubernetes.</p></li>
+   <div class="details-content"><figure class="logo align-center">
+<a class="reference internal image-reference" href="_images/logo.png"><img alt="TechWolf Logo" src="_images/logo.png" style="width: 50%;" />
+</a>
+</figure>
+<p><strong>Project Context</strong></p>
+<p><a class="reference external" href="https://www.techwolf.ai/">TechWolf</a> is an AI scale-up building Skill Intelligence solutions for HR, enabling enterprises to understand workforce skills and support strategic talent decisions. My role in the company evolved from engineering and AI work in the ‘SkillData’ team to Baekeland-funded research on dynamic career representation learning.</p>
+<figure class="diagram align-center" id="id1">
+<a class="reference internal image-reference" href="_images/techwolf_diagram.png"><img alt="Diagram showing TechWolf’s Product Ecosystem" src="_images/techwolf_diagram.png" style="width: 90%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Figure 1: TechWolf’s Product Ecosystem</em></span><a class="headerlink" href="#id1" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p><strong>AI &amp; Modeling</strong></p>
+<ul class="simple">
+<li><p>Fine-tuned the <strong>Multilingual Skill Tagger (MLST)</strong> transformer for CVs, job descriptions, and performance reviews.</p></li>
+<li><p>Reduced model inference time using <strong>quantization</strong> and <strong>ONNX</strong> conversion for efficient deployment.</p></li>
+<li><p>Handled noisy training labels through augmentation and robust training strategies.</p></li>
 </ul>
+<p><strong>Data Engineering</strong></p>
+<ul class="simple">
+<li><p>Built large-scale ETL pipelines using <strong>PySpark</strong>, <strong>BigQuery</strong>, and <strong>GCP Dataflow</strong>.</p></li>
+<li><p>Integrated <strong>data validation</strong>, quality checks, and monitoring for production readiness.</p></li>
+<li><p>Ensured full <strong>GDPR compliance</strong> via anonymisation and access control measures.</p></li>
+</ul>
+<p><strong>Backend &amp; Infrastructure</strong></p>
+<ul class="simple">
+<li><p>Refactored legacy <strong>Django</strong> services for modularity and reduced duplication.</p></li>
+<li><p>Deployed AI components in containerized environments using <strong>Docker</strong> and <strong>Kubernetes</strong>.</p></li>
+</ul>
+<p><strong>Research &amp; Baekeland Work</strong></p>
+<ul class="simple">
+<li><p>Developed career pathing models using <strong>dynamic embeddings</strong> and <strong>sequential modeling</strong> (Transformers, Temporal Attention).</p></li>
+<li><p>Prototyped skill representations with <strong>NMF</strong> and <strong>VAE</strong> for benchmarking tasks.</p></li>
+<li><p>Researched and adapted recent work like <strong>LaborLLM</strong> and <strong>CAREER</strong> to build realistic job transition models.</p></li>
+</ul>
+<p><strong>Technologies:</strong>
+Python, PyTorch, Transformers, LLMs, PySpark, GCP (Vertex AI, BigQuery, Dataflow), Docker, Kubernetes, ONNX, Django, GitLab CI/CD</p>
    </div>
 </details>
 <hr/><details class="collapsible-section">
@@ -274,15 +304,72 @@
       <h3>Research Intern (MSc Thesis)</h3>
       <p class="summary-line"><strong>Imec</strong>, Leuven, Belgium | Jul 2023 – Sep 2024</p>
    </summary>
-   <div class="details-content"><ul class="simple">
-<li><p><strong>Project:</strong> “Expert-Guided Interactive Machine Learning for Integrated Circuit Documentation”.</p></li>
-<li><p><strong>Automated Documentation:</strong> Created an IML system to automate component detection (modules, devices, labels) and measurement linking (DOE files) in complex semiconductor layouts (GDSII/OASIS).</p></li>
-<li><p><strong>Object Detection:</strong> Applied YOLOv7, optimized with SAHI-inspired slicing for high-resolution images, achieving precise detection of small features. Used OpenCV for device mapping.</p></li>
-<li><p><strong>IML Application:</strong> Developed a user-friendly desktop application (PyQt) enabling engineers to visually verify, correct, and annotate AI detections (human-in-the-loop).</p></li>
-<li><p><strong>Feedback &amp; Retraining:</strong> Implemented a robust feedback loop where user corrections were captured and used to automatically retrain the YOLO model, demonstrably improving mAP from 0.77 to 0.85.</p></li>
-<li><p><strong>Impact:</strong> Reduced layout documentation time significantly (estimated &lt;1 hour vs. weeks) while improving data accuracy and enabling continuous learning.</p></li>
-<li><p><strong>Tech:</strong> Python, PyQt, PyTorch, YOLOv7, OpenCV, KLayout, SAHI, OCR (DBNet), NMS/NMM.</p></li>
+   <div class="details-content"><figure class="logo align-center">
+<a class="reference internal image-reference" href="_images/logo1.png"><img alt="Imec Logo" src="_images/logo1.png" style="width: 50%;" />
+</a>
+</figure>
+<p><strong>Project Context</strong></p>
+<p><a class="reference external" href="https://www.imec-int.com/en">Imec</a> is a world-leading R&amp;D hub in nanoelectronics and integrated circuits (IC) technologies. My MSc thesis project, titled “Expert-Guided Interactive Machine Learning for Integrated Circuit Documentation,” addressed the time-consuming and error-prone manual process of documenting experimental semiconductor layouts and linking them to measurement data (design of experiment files). The goal was to create an AI-enhanced (Figure 2), interactive platform to automate and streamline this workflow.</p>
+<figure class="diagram align-center" id="id2">
+<a class="reference internal image-reference" href="_images/imec_diagram.png"><img alt="Diagram showing image processing pipeline" src="_images/imec_diagram.png" style="width: 70%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Figure 2: AI Image Pipeline Diagram</em></span><a class="headerlink" href="#id2" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<p><strong>AI &amp; Modeling</strong></p>
+<ul class="simple">
+<li><p>Built an <strong>interactive machine learning (IML)</strong> system to automate documentation of semiconductor layouts (GDSII/OASIS).</p></li>
+<li><p>Applied <strong>YOLOv7</strong> with <strong>SAHI-inspired slicing</strong> for high-resolution object detection of small layout features.</p></li>
+<li><p>Incorporated <strong>DBNet OCR</strong> for detecting text labels directly from layout polygons.</p></li>
+<li><p>Created a feedback loop to retrain the model using <strong>engineer corrections</strong>, improving mAP from 0.77 → 0.85.</p></li>
 </ul>
+<p><strong>Desktop Application Development</strong></p>
+<figure class="diagram align-center" id="id3">
+<a class="reference internal image-reference" href="_images/imec_verification.png"><img alt="Frontend application for verification" src="_images/imec_verification.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Figure 3: Verification Application</em></span><a class="headerlink" href="#id3" title="Link to this image">¶</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Developed a human-in-the-loop desktop tool using <strong>PyQt</strong> with drag/resizable annotations.</p></li>
+<li><p>Visualized detections with color-coded status: unverified, verified, high-risk.</p></li>
+<li><p>Embedded workflows for <strong>model retraining</strong>, evaluation, and data augmentation inside the app.</p></li>
+</ul>
+<p><strong>Computer Vision &amp; Mapping</strong></p>
+<ul class="simple">
+<li><p>Mapped individual <strong>devices</strong> within modules using <strong>OpenCV</strong> and layout-specific heuristics.</p></li>
+<li><p>Post-processed detections using <strong>NMS</strong> and custom filtering rules.</p></li>
+<li><p>Automatically linked detected components to measurement data (<strong>DOE files</strong>).</p></li>
+</ul>
+<p><strong>Technologies:</strong>
+Python, PyQt, YOLOv7, OpenCV, KLayout, SAHI, DBNet (OCR), PyTorch, Pandas, NumPy, Git, GDSII/OASIS.</p>
+   </div>
+</details>
+<hr/><details class="collapsible-section">
+   <summary>
+      <h3>Software Engineer</h3>
+      <p class="summary-line"><strong>KU Leuven</strong>, Leuven, Belgium | Oct 2022 – Jan 2023</p>
+   </summary>
+   <div class="details-content"><figure class="logo align-center">
+<a class="reference internal image-reference" href="_images/logo2.png"><img alt="KU Leuven Logo" src="_images/logo2.png" style="width: 40%;" />
+</a>
+</figure>
+<p><strong>Project Context</strong></p>
+<p><a class="reference external" href="https://www.imec-int.com/en">KU Leuven</a> hired me to help redesign the introductory “Artificial Intelligence” course at KU
+Leuven. This project aimed to enhance student understanding of
+fundamental AI algorithms by creating interactive <a class="reference external" href="https://ml-kuleuven.github.io/ai-course-demos/">demos</a> of popular machine learning algorithms.</p>
+<p><strong>Project Subject</strong></p>
+<p>I designed and developed an interactive web-based platform to visualise
+core AI algorithms:</p>
+<ul class="simple">
+<li><p>Implemented demos for core AI algorithms: Minimax, Dijkstra’s algorithm, Policy Iteration, and Support Vector Machines (SVMs).</p></li>
+<li><p>Developed interactive visualisations using D3 and javascript, allowing real-time user interaction (modifying inputs, stepping through execution) to observe algorithm behavior.</p></li>
+<li><p>Deployed the tool for student use, improving engagement and comprehension of AI concepts.</p></li>
+</ul>
+<p><strong>Technologies:</strong>
+Javascript, D3</p>
    </div>
 </details>
 <hr/><details class="collapsible-section">
@@ -290,24 +377,39 @@
       <h3>Software Engineer</h3>
       <p class="summary-line"><strong>DotDash</strong>, Leuven, Belgium | Aug 2021 – Sep 2022</p>
    </summary>
-   <div class="details-content"><ul class="simple">
-<li><p><strong>Real-time Monitoring:</strong> Developed a custom Grafana plugin to visualize Neo4j graph database metrics using live Cypher queries.</p></li>
-<li><p><strong>Anomaly Detection:</strong> Designed and implemented an end-to-end streaming pipeline using MQTT (ingestion), Kafka (broker), and PySpark Streaming for real-time outlier detection in high-throughput data.</p></li>
-<li><p><strong>Knowledge Graph Chatbot:</strong> Built a PoC chatbot using fine-tuned GPT-2 integrated with a Neo4j knowledge graph, enabling natural language querying of graph data.</p></li>
-<li><p><strong>Tech:</strong> Python, PySpark, Kafka, Grafana, MQTT, Neo4j, Cypher, Docker, GPT-2.</p></li>
+   <div class="details-content"><p><strong>Project Context</strong></p>
+<p>I worked within a small,agile R&amp;D team focused on rapidly prototyping and developing AI-integrated solutions for real-time daat streaming, monitoring, and knowledge extraction.</p>
+<p><strong>Project Subject</strong></p>
+<p>Developed several proof-of-concept:</p>
+<ul class="simple">
+<li><p>Created a custom Grafana plugin for monitoring Neo4j databases using Cypher queries directly within dashboards.</p></li>
+<li><p>Developed a real-time anomaly detection pipeline using PySpark Streaming, MQTT (ingestion), and Kafka (message broker).</p></li>
+<li><p>Built a RAG (Retrieval Augmented Generation) chatbot utilising a knowledge graph stored in Neo4j to ground the model answers. The model in question was a fine-tuned GPT-2 model that generated CYPHER code to query the database for appropriate information.</p></li>
 </ul>
+<p><strong>Technologies:</strong>
+Python, PySpark (Streaming), Kafka, Grafana, MQTT, Neo4j (Cypher), Docker, GPT-2</p>
    </div>
 </details>
 <hr/><details class="collapsible-section">
    <summary>
       <h3>Software Engineer Intern</h3>
-      <p class="summary-line"><strong>Koroana Group</strong>, Kontich, Belgium | Feb 2021 – Jun 2021</p>
+      <p class="summary-line"><strong>Roborana Group</strong>, Kontich, Belgium | Feb 2021 – Jun 2021</p>
    </summary>
-   <div class="details-content"><ul class="simple">
-<li><p><strong>Robotic Process Automation (RPA):</strong> Developed and tested UiPath workflows integrated with Python scripts to automate repetitive business processes (e.g., data entry, report generation).</p></li>
-<li><p><strong>AI-Enhanced Forecasting:</strong> Created an end-to-end system using Python for daily retraining of a time-series model to predict European COVID-19 vaccination numbers based on ECDC public data.</p></li>
-<li><p><strong>Tech:</strong> Python, UiPath, Automation Frameworks, Time-Series Forecasting Libraries.</p></li>
+   <div class="details-content"><figure class="logo align-center">
+<a class="reference internal image-reference" href="_images/logo3.png"><img alt="Roborana Logo" src="_images/logo3.png" style="width: 40%;" />
+</a>
+</figure>
+<p><strong>Project Context</strong></p>
+<p>Internship at <a class="reference external" href="https://www.roborana.com/">Roborana</a> focused on exploring and demonstrating automation technologies (RPA, AI) to improve eciency by targeting repetitive business processes. Also designed and trained a forecasting model for covid vaccination predictions in the EU.</p>
+<p><strong>Project Subject</strong></p>
+<p>Developed several proof-of-concept AI-integrated solutions for UiPath:</p>
+<ul class="simple">
+<li><p>Developed proof-of-concept Robotic Process Automation (RPA) solutions using UiPath and Python frameworks to automate tasks like data entry and report generation.</p></li>
+<li><p>Explored basic AI techniques (OCR, text classification) for enhancing automation workflows.</p></li>
+<li><p>Created an end-to-end forecasting system that retrained a model daily to predict European vaccination numbers using ECDC public data.</p></li>
 </ul>
+<p><strong>Technologies:</strong>
+Python, UiPath, Streamlit, SKLearn</p>
    </div>
 </details></section>
 </section>
@@ -368,7 +470,7 @@
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Experiences</a><ul>
-<li><a class="reference internal" href="#professional-research-experience">Professional &amp; Research Experience</a></li>
+<li><a class="reference internal" href="#professional-experience">Professional Experience</a></li>
 </ul>
 </li>
 </ul>
