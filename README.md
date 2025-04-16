@@ -1,7 +1,5 @@
 # Personal Website
 
-## 👋 Welcome!
-
 This repository contains the source code for a personal website built using **Sphinx** and hosted on **GitHub Pages**.
 
 The site serves as:
