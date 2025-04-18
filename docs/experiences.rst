@@ -14,7 +14,7 @@ Professional Experience
       </summary>
       <div class="details-content">
 
-.. figure:: /_static/assets/techwolf/logo.png
+.. figure:: /_static/assets/companies/techwolf/logo.png
    :align: center
    :alt: TechWolf Logo
    :width: 50%
@@ -24,7 +24,7 @@ Professional Experience
 
 `TechWolf <https://www.techwolf.ai/>`_ is an AI scale-up building Skill Intelligence solutions for HR, enabling enterprises to understand workforce skills and support strategic talent decisions. My role in the company evolved from engineering and AI work in the 'SkillData' team to Baekeland-funded research on dynamic career representation learning.
 
-.. figure:: /_static/assets/techwolf/techwolf_diagram.png
+.. figure:: /_static/assets/companies/techwolf/techwolf_diagram.png
    :align: center
    :alt: Diagram showing TechWolf’s Product Ecosystem
    :figclass: diagram
@@ -73,7 +73,7 @@ Python, PyTorch, Transformers, LLMs, PySpark, GCP (Vertex AI, BigQuery, Dataflow
       </summary>
       <div class="details-content">
 
-.. figure:: /_static/assets/imec/logo.png
+.. figure:: /_static/assets/companies/imec/logo.png
    :align: center
    :alt: Imec Logo
    :figclass: logo
@@ -83,7 +83,7 @@ Python, PyTorch, Transformers, LLMs, PySpark, GCP (Vertex AI, BigQuery, Dataflow
 
 `Imec <https://www.imec-int.com/en>`_ is a world-leading R&D hub in nanoelectronics and integrated circuits (IC) technologies. My MSc thesis project, titled "Expert-Guided Interactive Machine Learning for Integrated Circuit Documentation," addressed the time-consuming and error-prone manual process of documenting experimental semiconductor layouts and linking them to measurement data (design of experiment files). The goal was to create an AI-enhanced (Figure 2), interactive platform to automate and streamline this workflow.
 
-.. figure:: /_static/assets/imec/imec_diagram.png
+.. figure:: /_static/assets/companies/imec/imec_diagram.png
    :align: center
    :alt: Diagram showing image processing pipeline
    :figclass: diagram
@@ -100,7 +100,7 @@ Python, PyTorch, Transformers, LLMs, PySpark, GCP (Vertex AI, BigQuery, Dataflow
 
 **Desktop Application Development**
 
-.. figure:: /_static/assets/imec/imec_verification.png
+.. figure:: /_static/assets/companies/imec/imec_verification.png
    :align: center
    :alt: Frontend application for verification
    :figclass: diagram
@@ -136,7 +136,7 @@ Python, PyQt, YOLOv7, OpenCV, KLayout, SAHI, DBNet (OCR), PyTorch, Pandas, NumPy
       </summary>
       <div class="details-content">
 
-.. figure:: /_static/assets/kuleuven/logo.png
+.. figure:: /_static/assets/companies/kuleuven/logo.png
    :align: center
    :alt: KU Leuven Logo
    :figclass: logo
@@ -206,7 +206,7 @@ Python, PySpark (Streaming), Kafka, Grafana, MQTT, Neo4j (Cypher), Docker, GPT-2
       </summary>
       <div class="details-content">
 
-.. figure:: /_static/assets/roborana/logo.png
+.. figure:: /_static/assets/companies/roborana/logo.png
    :align: center
    :alt: Roborana Logo
    :figclass: logo

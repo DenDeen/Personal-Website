@@ -23,3 +23,7 @@ This site is powered by:
 ## 💻 Building Site Locally
 
    ```sphinx-build -b html docs docs/_build/html```
+
+## 💻 Deploy Site Remotely
+
+   ```run github actions```

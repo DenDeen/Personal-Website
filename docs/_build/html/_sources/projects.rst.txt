@@ -9,7 +9,7 @@ Featured Projects
 
    <details class="collapsible-section">
       <summary>
-         <h3>LSat Datathon - AI Artwork Generation</h3>
+         <h3>LStat Datathon - AI Artwork Generation</h3>
          <p class="summary-line">Creative AI with Diffusion Models</p>
       </summary>
       <div class="details-content">

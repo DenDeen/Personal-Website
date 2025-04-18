@@ -5,9 +5,7 @@ author = 'Mikkel Skovdal'
 
 # -- General configuration ---------------------------------------------------
 extensions = [
-    # 'sphinx.ext.autodoc', # Not needed unless documenting code
-    # 'sphinx.ext.napoleon', # Not needed
-    'sphinx.ext.githubpages', # Helps with GitHub Pages deployment links
+    'sphinx.ext.githubpages',
     'sphinx_copybutton',
 ]
 
@@ -15,19 +13,19 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The master toctree document.
-master_doc = 'index' # For older Sphinx versions, root_doc for newer
+master_doc = 'index'
 
-# THEME SELECTION (FURO)
+# THEME SELECTION
 html_theme = 'furo'
-html_title = "Mikkel Skovdal" # Shows in browser tab and header
+html_title = "Mikkel Skovdal"
 
-# See Furo documentation for all options: https://pradyunsg.me/furo/customisation/
+# All options: https://pradyunsg.me/furo/customisation/
 html_theme_options = {
     "sidebar_hide_name": True,
     "navigation_with_keys": True,
     "light_css_variables": {
-        "color-brand-primary": "#007bff",
         "color-brand-content": "#007bff",
+        "color-brand-primary": "#007bff",
     },
     "dark_css_variables": {
         "color-brand-primary": "#6bbaff",
@@ -41,4 +39,11 @@ html_static_path = ['_static']
 # Custom CSS file relative to html_static_path
 html_css_files = [
     'css/custom.css',
+    'css/swiper-bundle.css',
+]
+
+# Custom JS file relative to html_static_path
+html_js_files = [
+    'js/custom.js',
+    'js/swiper-bundle.js',
 ]

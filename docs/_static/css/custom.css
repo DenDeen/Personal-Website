@@ -1,31 +1,18 @@
-/* Custom CSS for Mikkel's Sphinx Site */
-
-/* Hero Section Styling (if using raw HTML) */
+/* ------------- */
 .hero-section {
     text-align: center;
     padding: 4rem 1rem 3rem 1rem;
-    /* Furo themes often have background variables, or set directly */
-    /* background-color: var(--color-background-secondary); */
-    margin-bottom: 2rem; /* Space below hero */
-}
-
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    border: 3px solid var(--color-background-primary); /* Use theme variable */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin-bottom: 2rem;
 }
 
 .hero-section h1 {
     margin-bottom: 0.5rem;
-    font-size: 2.5rem; /* Adjust as needed */
+    font-size: 2.5rem;
 }
 
 .hero-section .subtitle {
     font-size: 1.25rem;
-    color: var(--color-foreground-muted); /* Use theme variable */
+    color: var(--color-foreground-muted);
     margin-bottom: 1rem;
 }
 
@@ -36,24 +23,23 @@
     margin-right: auto;
 }
 
-/* Basic Button Styling (adapt colors to Furo variables if possible) */
 .button, .button-secondary {
     display: inline-block;
     padding: 10px 20px;
     margin: 8px;
     border-radius: 5px;
-    text-decoration: none !important; /* Override default link styles */
+    text-decoration: none !important;
     font-weight: 500;
     transition: all 0.3s ease;
     cursor: pointer;
     border: 1px solid transparent;
     font-size: 1rem;
-    line-height: normal; /* Ensure proper button height */
+    line-height: normal;
 }
 
-.button { /* Primary */
+.button {
     background-color: transparent;
-    color: var(--color-brand-content, #0d6efd); /* Use theme link color */
+    color: var(--color-brand-content, #0d6efd);
     border: 1px solid var(--color-brand-primary, #0d6efd);
 }
 .button:hover {
@@ -63,15 +49,13 @@
 
 .hero-buttons { margin-top: 1rem; }
 
-/* Add some spacing between project/experience entries */
 hr {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     border: 0;
-    border-top: 1px solid var(--color-foreground-border); /* Use theme border color */
+    border-top: 1px solid var(--color-foreground-border);
 }
 
-/* Adjust list spacing */
 ul, ol {
     margin-bottom: 1rem;
 }
@@ -94,101 +78,112 @@ hr.section-divider + p {
 }
 
 details.collapsible-section {
-    background-color: var(--color-background-secondary, #2a2a2a); /* Use theme's secondary background */
+    background-color: var(--color-background-secondary, #2a2a2a);
     border: 1px solid var(--color-foreground-border, #444);
     border-radius: 5px;
-    margin-bottom: 1.5rem; /* Space between items */
-    /* Remove outer padding, let summary/content handle it */
+    margin-bottom: 1.5rem; 
     padding: 0;
-    overflow: hidden; /* Prevents content spillover before opening */
-  }
-  
-  details.collapsible-section summary {
+    overflow: hidden;
+}
+
+details.collapsible-section summary {
     cursor: pointer;
-    font-weight: normal; /* Let h3 handle boldness */
-    padding: 0.8rem 1.2rem; /* Padding inside the summary bar */
-    list-style: none; /* Remove default marker */
+    font-weight: normal;
+    padding: 0.8rem 1.2rem;
+    list-style: none;
     position: relative;
-    background-color: var(--color-background-secondary, #2a2a2a); /* Match details bg or slightly different */
+    background-color: var(--color-background-secondary, #2a2a2a);
     transition: background-color 0.2s ease;
-  }
-  details.collapsible-section summary:hover {
-      background-color: var(--color-background-hover, #333); /* Hover effect */
-  }
-  
-  details.collapsible-section summary::marker, /* Hide default marker consistently */
-  details.collapsible-section summary::-webkit-details-marker {
-      display: none;
-  }
-  
-  /* Custom Arrow Styling */
-  details.collapsible-section summary::before {
-    content: '▶'; /* Right-pointing arrow */
+}
+details.collapsible-section summary:hover {
+    background-color: var(--color-background-hover, #333);
+}
+
+details.collapsible-section summary::marker,
+details.collapsible-section summary::-webkit-details-marker {
+    display: none;
+}
+
+details.collapsible-section summary::before {
+    content: '▶';
     position: absolute;
-    left: 10px; /* Position from left */
+    left: 10px;
     top: 50%;
-    transform: translateY(-50%) scale(0.8); /* Make arrow slightly smaller */
+    transform: translateY(-50%) scale(0.8);
     font-size: 0.8em;
     color: var(--color-foreground-muted, #aaa);
     transition: transform 0.2s ease-in-out;
-  }
-  
-  details[open].collapsible-section summary::before {
-    transform: translateY(-50%) rotate(90deg) scale(0.8); /* Down-pointing arrow */
-  }
-  
-  /* Adjust summary content positioning */
-  details.collapsible-section summary h3,
-  details.collapsible-section summary .summary-line {
-      margin-left: 20px; /* Space for the arrow */
-  }
-  
-  details.collapsible-section summary h3 {
-     display: block; /* Title on its own line */
-     margin: 0;
-     font-size: 1.2em;
-     font-weight: 600; /* Make title bold */
-     color: var(--color-brand-content, #6bbaff); /* Theme's link/accent color */
-     line-height: 1.3;
-  }
-  details.collapsible-section summary .summary-line {
-     display: block;
-     font-size: 0.9em;
-     font-weight: normal;
-     color: var(--color-foreground-muted, #aaa); /* Muted color */
-     margin-top: 0.2rem;
-     line-height: 1.3;
-  }
-  
-  /* Style the content area */
-  .details-content {
-    padding: 1rem 1.2rem 1.2rem 2.2rem; /* Top, R, B, L (more left padding for indent) */
+}
+
+details[open].collapsible-section summary::before {
+transform: translateY(-50%) rotate(90deg) scale(0.8);
+}
+
+details.collapsible-section summary h3,
+details.collapsible-section summary .summary-line {
+    margin-left: 20px;
+}
+
+details.collapsible-section summary h3 {
+    display: block;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--color-brand-content, #6bbaff);
+    line-height: 1.3;
+}
+details.collapsible-section summary .summary-line {
+    display: block;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: var(--color-foreground-muted, #aaa);
+    margin-top: 0.2rem;
+    line-height: 1.3;
+}
+
+.details-content {
+    padding: 1rem 1.2rem 1.2rem 2.2rem;
     border-top: 1px solid var(--color-foreground-border, #444);
-    background-color: var(--color-background-primary, #1e1e1e); /* Match main background */
-  }
-  
-  /* Ensure RST elements inside details-content look okay */
-  .details-content p,
-  .details-content ul,
-  .details-content ol {
-      margin-bottom: 0.8rem; /* Spacing for paragraphs/lists inside */
-  }
-  .details-content li {
-      margin-bottom: 0.4rem;
-  }
-  .details-content strong {
-      color: var(--color-foreground-primary); /* Ensure strong text is readable */
-  }
-  .details-content code, .details-content tt { /* Inline code */
-      background-color: var(--color-background-secondary);
-      padding: 0.1em 0.4em;
-      border-radius: 3px;
-      font-size: 0.9em;
-      color: var(--color-foreground-primary);
-      border: 1px solid var(--color-foreground-border);
-  }
-  
-  /* Remove the extra horizontal rule if desired */
-  hr {
-      display: none; /* Hide the <hr/> used previously */
-  }
+    background-color: var(--color-background-primary, #1e1e1e);
+}
+
+.details-content p,
+.details-content ul,
+.details-content ol {
+    margin-bottom: 0.8rem;
+}
+.details-content li {
+    margin-bottom: 0.4rem;
+}
+.details-content strong {
+    color: var(--color-foreground-primary);
+}
+.details-content code, .details-content tt {
+    background-color: var(--color-background-secondary);
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    color: var(--color-foreground-primary);
+    border: 1px solid var(--color-foreground-border);
+}
+
+hr {
+    display: none;
+}
+
+/* -------- */
+.swiper {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: var(--color-background-secondary);
+}
+
+.swiper-slide img {
+    border-radius: 20px;
+}

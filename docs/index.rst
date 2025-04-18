@@ -3,9 +3,30 @@
 .. raw:: html
 
    <div class="hero-section">
-      <img src="_static/assets/personal/profile.jpg" alt="Mikkel Skovdal" class="profile-pic">
-      <h1>Hi, I'm Mikkel Skovdal</h1>
+      <h1>Hello, I'm Mikkel Skovdal</h1>
       <p class="subtitle">AI Engineer | Data Scientist | Tinkerer</p>
+
+      <!-- Carousel-->
+      <div class="swiper profile-carousel">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide">
+               <img src="_static/assets/carousel/couple.jpg" alt="Mikkel and Tutku">
+            </div>
+            <div class="swiper-slide">
+               <img src="_static/assets/carousel/porto.jpg" alt="Mikkel in Porto">
+            </div>
+            <div class="swiper-slide">
+               <img src="_static/assets/carousel/palestine.jpg" alt="Mikkel doing palestine run with dad">
+            </div>
+            <div class="swiper-slide">
+               <img src="_static/assets/carousel/ski.jpg" alt="Mikkel skiing">
+            </div>
+             <div class="swiper-slide">
+               <img src="_static/assets/carousel/family.jpg" alt="Mikkel with family">
+            </div>
+         </div>
+         <div class="swiper-pagination" style="color: var(--color-background-secondary)"></div>
+      </div>
 
       <p>
          I’m a recent MSc graduate in Computer Science from KU Leuven with a passion for turning complex ideas into real, working systems. Whether it's building AI models, designing data pipelines, or experimenting with proof-of-concepts, I enjoy bringing structure and creativity together to solve tangible problems.
@@ -35,6 +56,7 @@
    :hidden:
    :caption: Menu
 
+   Home <self>
    experiences
    projects
    contact
