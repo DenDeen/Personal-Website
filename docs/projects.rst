@@ -28,7 +28,7 @@ Featured Projects
 
    <details class="collapsible-section">
       <summary>
-         <h3>Project week Kolding - Audio book for a Danish brewery</h3>
+         <h3>Project Week - Audio book advertisement for a Danish brewery</h3>
          <p class="summary-line">Project Week in Kolding, Denmark</p>
       </summary>
       <div class="details-content">
@@ -45,7 +45,7 @@ Featured Projects
 
    <details class="collapsible-section">
       <summary>
-         <h3>Project week Chandigarh - Emotion detection system</h3>
+         <h3>Project Week - Emotion detection system</h3>
          <p class="summary-line">Project Week in Chandigarh, India</p>
       </summary>
       <div class="details-content">
