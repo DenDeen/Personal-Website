@@ -24,6 +24,9 @@
              <div class="swiper-slide">
                <img src="_static/assets/carousel/family.jpg" alt="Mikkel with family">
             </div>
+            <div class="swiper-slide">
+               <img src="_static/assets/backdrop/working-dark.gif" alt="Working Gif">
+            </div>
          </div>
          <div class="swiper-pagination" style="color: var(--color-background-secondary)"></div>
       </div>
