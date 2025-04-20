@@ -10,7 +10,7 @@ Professional Experience
    <details class="collapsible-section">
       <summary>
          <h3>Data Engineer & Researcher</h3>
-         <p class="summary-line"><strong>TechWolf</strong>, Ghent, Belgium | Sep 2023 – Nov 2024</p>
+         <p class="summary-line"><strong>TechWolf</strong> in Ghent, Belgium | Sep 2023 – Nov 2024</p>
       </summary>
       <div class="details-content">
 
@@ -69,7 +69,7 @@ Python, PyTorch, Transformers, LLMs, PySpark, GCP (Vertex AI, BigQuery, Dataflow
    <details class="collapsible-section">
       <summary>
          <h3>Research Intern (MSc Thesis)</h3>
-         <p class="summary-line"><strong>Imec</strong>, Leuven, Belgium | Jul 2023 – Sep 2024</p>
+         <p class="summary-line"><strong>Imec</strong> in Leuven, Belgium | Jul 2023 – Sep 2024</p>
       </summary>
       <div class="details-content">
 
@@ -132,7 +132,7 @@ Python, PyQt, YOLOv7, OpenCV, KLayout, SAHI, DBNet (OCR), PyTorch, Pandas, NumPy
    <details class="collapsible-section">
       <summary>
          <h3>Software Engineer</h3>
-         <p class="summary-line"><strong>KU Leuven</strong>, Leuven, Belgium | Oct 2022 – Jan 2023</p>
+         <p class="summary-line"><strong>KU Leuven</strong> in Leuven, Belgium | Oct 2022 – Jan 2023</p>
       </summary>
       <div class="details-content">
 
@@ -172,7 +172,7 @@ Javascript, D3
    <details class="collapsible-section">
       <summary>
          <h3>Software Engineer</h3>
-         <p class="summary-line"><strong>DotDash</strong>, Leuven, Belgium | Aug 2021 – Sep 2022</p>
+         <p class="summary-line"><strong>DotDash</strong> in Leuven, Belgium | Aug 2021 – Sep 2022</p>
       </summary>
       <div class="details-content">
 
@@ -202,7 +202,7 @@ Python, PySpark (Streaming), Kafka, Grafana, MQTT, Neo4j (Cypher), Docker, GPT-2
    <details class="collapsible-section">
       <summary>
          <h3>Software Engineer Intern</h3>
-         <p class="summary-line"><strong>Roborana Group</strong>, Kontich, Belgium | Feb 2021 – Jun 2021</p>
+         <p class="summary-line"><strong>Roborana Group</strong> in Kontich, Belgium | Feb 2021 – Jun 2021</p>
       </summary>
       <div class="details-content">
 

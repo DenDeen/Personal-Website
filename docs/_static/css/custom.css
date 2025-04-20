@@ -1,3 +1,26 @@
+/* --- Hide right side bar --- */
+.toc-drawer {
+    visibility: hidden;
+}
+
+/* --- Floating gif --- */
+.sidebar-sticky .sidebar-gif{
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.sidebar-drawer {
+    border-right: 0;
+}
+
+/* --- Sine Wave Background Container --- */
+@media (max-width: 1400px) {
+    #sine-background {
+        display: none;
+    }
+}
+
+/* --- Hero section --- */
 .hero-section {
     text-align: center;
     padding: 4rem 1rem 3rem 1rem;
