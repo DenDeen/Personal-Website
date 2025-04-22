@@ -17,7 +17,7 @@
 /* if smaller than max-width, the sine wave will be centered */
 @media (max-width: 63em) {
     .sine-background {
-        display: hidden;
+        display: none;
     }
 }
 @media (min-width: 63em) {
