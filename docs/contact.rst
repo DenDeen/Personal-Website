@@ -7,7 +7,7 @@ Get In Touch
 
 I'm always open to connecting with others passionate about AI, data, or interesting projects!
 
-*   **Email:** `mikkel12112@gmail.com <mailto:mikkel12112@gmail.com>`_
+*   **Email:** `mikkel2112@gmail.com <mailto:mikkel2112@gmail.com>`_
 *   **LinkedIn:** `linkedin.com/in/mikkel-skovdal <https://www.linkedin.com/in/mikkel-skovdal-0875b7132/>`_
 *   **GitHub:** `github.com/dendeen <https://github.com/dendeen>`_
 

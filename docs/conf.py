@@ -45,5 +45,6 @@ html_css_files = [
 # Custom JS file relative to html_static_path
 html_js_files = [
     'js/custom.js',
+    'js/sine.js',
     'js/swiper-bundle.js',
 ]
