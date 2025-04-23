@@ -1,3 +1,8 @@
+/* --- Border radius around images --- */
+img {
+    border-radius: 10px;
+}
+
 /* --- Hide right side bar --- */
 .toc-drawer {
     visibility: hidden;
@@ -14,7 +19,6 @@
 }
 
 /* --- Sine Wave Background Container --- */
-/* if smaller than max-width, the sine wave will be centered */
 @media (max-width: 63em) {
     .sine-background {
         display: none;

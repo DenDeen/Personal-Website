@@ -9,6 +9,38 @@ Professional Experience
 
    <details class="collapsible-section">
       <summary>
+         <h3>AI Engineer</h3>
+         <p class="summary-line"><strong>Freelance</strong> in Leuven, Belgium | Jan 2025 – Present</p>
+      </summary>
+      <div class="details-content">
+
+.. figure:: /_static/assets/personal/datathon.jpg
+   :align: center
+   :alt: Datathon Picture
+   :width: 70%
+   :figclass: logo
+
+   *Figure 1: Datathon 2023 - Leuven, Belgium*
+
+**Project Context**
+
+I am currently working as a freelance AI engineer, focusing on various projects in the field of AI and machine learning. My work includes developing custom solutions for clients, contributing to open-source projects, and participating in interesting AI hackathons/challenges.
+
+**Project Subjects**
+
+- Consulting on the continuation of my thesis project at Imec, focused on the deconstruction and documentation of Integrated Circuits from large images.
+- Contributing to the development of a 3D U-Net model for lesion segmentation on PET and CT imaging, as part of the autoPET IV challenge.
+
+.. raw:: html
+
+      </div>
+   </details>
+   <hr/>
+
+.. raw:: html
+
+   <details class="collapsible-section">
+      <summary>
          <h3>Data Engineer & Researcher</h3>
          <p class="summary-line"><strong>TechWolf</strong> in Ghent, Belgium | Sep 2023 – Nov 2024</p>
       </summary>
@@ -17,7 +49,7 @@ Professional Experience
 .. figure:: /_static/assets/companies/techwolf/logo.png
    :align: center
    :alt: TechWolf Logo
-   :width: 50%
+   :width: 70%
    :figclass: logo
 
 **Project Context**
@@ -34,29 +66,31 @@ Professional Experience
 
 **AI & Modeling**
 
-- Fine-tuned the **Multilingual Skill Tagger (MLST)** transformer for CVs, job descriptions, and performance reviews.
-- Reduced model inference time using **quantization** and **ONNX** conversion for efficient deployment.
-- Handled noisy training labels through augmentation and robust training strategies.
+- Fine-tuned the Multilingual Skill Tagger (MLST) transformer for CVs, job descriptions, and performance reviews through contrastive learning.
+- Reduced model inference time using quantization and ONNX conversion for efficient deployment.
+- Handled noisy training data through augmentation and sampling strategies.
 
 **Data Engineering**
 
-- Built large-scale ETL pipelines using **PySpark**, **BigQuery**, and **GCP Dataflow**.
-- Integrated **data validation**, quality checks, and monitoring for production readiness.
-- Ensured full **GDPR compliance** via anonymisation and access control measures.
+- Built large-scale ETL pipelines using PySpark, BigQuery, and GCP Dataflow. Part of this project was experimenting with different data platforms such as the Azure Data Platform with Datafactory and Synapse.
+- Handled the sampling pipeline of training data from the datalake.
+- Integrated data validation, quality checks, and monitoring for production readiness.
+- The models were deployed in a microservices architecture using Docker and Kubernetes.
+- Ensured full GDPR compliance via anonymisation and access control measures.
 
 **Backend & Infrastructure**
 
-- Refactored legacy **Django** services for modularity and reduced duplication.
-- Deployed AI components in containerized environments using **Docker** and **Kubernetes**.
+- Refactored legacy Django services for modularity and reduced duplication.
+- Deployed AI components in containerized environments using Docker and Kubernetes.
 
 **Research & Baekeland Work**
 
-- Developed career pathing models using **dynamic embeddings** and **sequential modeling** (Transformers, Temporal Attention).
-- Prototyped skill representations with **NMF** and **VAE** for benchmarking tasks.
-- Researched and adapted recent work like **LaborLLM** and **CAREER** to build realistic job transition models.
+- Developed career pathing models using dynamic embeddings and sequential modeling (Transformers, Temporal Attention).
+- Prototyped skill representations with NMF and VAE for benchmarking tasks.
+- Researched and adapted recent work like LaborLLM and CAREER to build realistic job transition models.
 
 **Technologies:**  
-Python, PyTorch, Transformers, LLMs, PySpark, GCP (Vertex AI, BigQuery, Dataflow), Docker, Kubernetes, ONNX, Django, GitLab CI/CD
+Python, PyTorch, Transformers, LLMs, PySpark, AWS (Bedrock, S3), Azure(Data Factory, Synapse), GCP (Vertex AI, BigQuery, Dataflow), , Docker, Kubernetes, ONNX, Django, GitLab CI/CD
 
 .. raw:: html
 
@@ -93,10 +127,10 @@ Python, PyTorch, Transformers, LLMs, PySpark, GCP (Vertex AI, BigQuery, Dataflow
 
 **AI & Modeling**
 
-- Built an **interactive machine learning (IML)** system to automate documentation of semiconductor layouts (GDSII/OASIS).  
-- Applied **YOLOv7** with **SAHI-inspired slicing** for high-resolution object detection of small layout features.  
-- Incorporated **DBNet OCR** for detecting text labels directly from layout polygons.  
-- Created a feedback loop to retrain the model using **engineer corrections**, improving mAP from 0.77 → 0.85.  
+- Built an interactive machine learning (IML) system to automate documentation of semiconductor layouts (GDSII/OASIS).  
+- Applied YOLOv7 with SAHI-inspired slicing for high-resolution object detection of small layout features.  
+- Incorporated DBNet OCR for detecting text labels directly from layout polygons.  
+- Created a feedback loop to retrain the model using engineer corrections, improving mAP from 0.77 → 0.85.  
 
 **Desktop Application Development**
 
@@ -108,15 +142,15 @@ Python, PyTorch, Transformers, LLMs, PySpark, GCP (Vertex AI, BigQuery, Dataflow
 
    *Figure 3: Verification Application*
 
-- Developed a human-in-the-loop desktop tool using **PyQt** with drag/resizable annotations.  
+- Developed a human-in-the-loop desktop tool using PyQt with drag/resizable annotations.  
 - Visualized detections with color-coded status: unverified, verified, high-risk.  
-- Embedded workflows for **model retraining**, evaluation, and data augmentation inside the app.  
+- Embedded workflows for model retraining, evaluation, and data augmentation inside the app.  
 
 **Computer Vision & Mapping**
 
-- Mapped individual **devices** within modules using **OpenCV** and layout-specific heuristics.  
-- Post-processed detections using **NMS** and custom filtering rules.  
-- Automatically linked detected components to measurement data (**DOE files**).  
+- Mapped individual devices within modules using OpenCV and layout-specific heuristics.  
+- Post-processed detections using NMS and custom filtering rules.  
+- Automatically linked detected components to measurement data (DOE files).  
 
 **Technologies:**  
 Python, PyQt, YOLOv7, OpenCV, KLayout, SAHI, DBNet (OCR), PyTorch, Pandas, NumPy, Git, GDSII/OASIS.

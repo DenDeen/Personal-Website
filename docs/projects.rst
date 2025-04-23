@@ -31,6 +31,12 @@ Featured Projects
       </summary>
       <div class="details-content">
 
+.. figure:: /_static/assets/personal/datathon.jpg
+   :align: center
+   :alt: Datathon Picture
+   :width: 50%
+   :figclass: logo
+
 *   **Challenge:** Create a PoC with a dataset containing images of artworks and desccriptions.
 *   **Solution:** Developed a custom diffusion `model <https://www.linkedin.com/feed/update/urn:li:activity:7039243586722222080/>`_ to generate artwork based on textual prompts. The model was trained on a dataset of 10,000 images and descriptions, allowing it to create unique pieces of art.
 *   **Implementation:** Used PyTorch to train a custom diffusion model on Kaggle GPUs. Developed a Streamlit application for generating artwork based on textual prompts.
