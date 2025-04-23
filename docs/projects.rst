@@ -34,7 +34,7 @@ Featured Projects
 .. figure:: /_static/assets/personal/datathon.jpg
    :align: center
    :alt: Datathon Picture
-   :width: 50%
+   :width: 70%
    :figclass: logo
 
 *   **Challenge:** Create a PoC with a dataset containing images of artworks and desccriptions.
