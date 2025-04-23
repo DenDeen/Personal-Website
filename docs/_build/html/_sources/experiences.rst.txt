@@ -26,7 +26,7 @@ Professional Experience
 
 I am currently working as a freelance AI engineer, focusing on various projects in the field of AI and machine learning. My work includes developing custom solutions for clients, contributing to open-source projects, and participating in interesting AI hackathons/challenges.
 
-**Project Subjects**
+**Subjects**
 
 - Consulting on the continuation of my thesis project at Imec, focused on the deconstruction and documentation of Integrated Circuits from large images.
 - Contributing to the development of a 3D U-Net model for lesion segmentation on PET and CT imaging, as part of the autoPET IV challenge.

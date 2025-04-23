@@ -3,6 +3,11 @@ img {
     border-radius: 10px;
 }
 
+/* --- left marging h3 --- */
+h3 {
+    padding-left: 20px;
+}
+
 /* --- Hide right side bar --- */
 .toc-drawer {
     visibility: hidden;
