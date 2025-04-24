@@ -27,7 +27,7 @@
       </div>
 
       <p>
-         I’m a recent MSc graduate in Computer Science from KU Leuven with a passion for turning complex ideas into real, working systems. Whether it's building AI models, designing data pipelines, or experimenting with proof-of-concepts, I enjoy bringing structure and creativity together to solve tangible problems.
+         I’m a recent MSc graduate in Computer Science from KU Leuven with a passion for turning complex ideas into real, working systems. Whether it's building AI models, designing data pipelines, or experimenting with proof-of-concepts, I enjoy bringing structure and creativity together to solve challenging problems.
       </p>
 
       <p>
