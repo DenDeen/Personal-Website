@@ -3,7 +3,7 @@ name: Deploy Sphinx site to Pages
 on:
   # Runs on pushes targeting the `source` branch
   push:
-    branches: [source]
+    branches: [master, main, source]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
