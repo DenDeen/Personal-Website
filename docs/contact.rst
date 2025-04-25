@@ -14,5 +14,5 @@ I'm always open to connecting with others passionate about AI, data, or interest
 .. raw:: html
 
    <p style="margin-top: 2rem;">
-      <a href="_static/assets/personal/resume/cv.pdf" target="_blank" class="button">Download CV</a>
+      <a href="_static/assets/personal/cv.pdf" target="_blank" class="button">Download CV</a>
    </p>
