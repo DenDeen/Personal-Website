@@ -41,7 +41,7 @@ I am currently working as a freelance AI engineer, focusing on various projects 
 
    <details class="collapsible-section">
       <summary>
-         <h3>Data Engineer and Data Scientist</h3>
+         <h3>Data Engineer</h3>
          <p class="summary-line"><strong>TechWolf</strong> in Ghent, Belgium | Sep 2023 – Nov 2024</p>
       </summary>
       <div class="details-content">
