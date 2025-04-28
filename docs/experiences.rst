@@ -41,7 +41,7 @@ I am currently working as a freelance AI engineer, focusing on various projects 
 
    <details class="collapsible-section">
       <summary>
-         <h3>Data Engineer & Researcher</h3>
+         <h3>Data Engineer and Data Scientist</h3>
          <p class="summary-line"><strong>TechWolf</strong> in Ghent, Belgium | Sep 2023 – Nov 2024</p>
       </summary>
       <div class="details-content">
@@ -67,30 +67,30 @@ I am currently working as a freelance AI engineer, focusing on various projects 
 **AI & Modeling**
 
 - Fine-tuned the Multilingual Skill Tagger (MLST) transformer for CVs, job descriptions, and performance reviews through contrastive learning.
-- Reduced model inference time using quantization and ONNX conversion for efficient deployment.
+- Constant experimentation with model scalability, such as improvements to model inference time with quantization techniques.
 - Handled noisy training data through augmentation and sampling strategies.
 
 **Data Engineering**
 
-- Built large-scale ETL pipelines using PySpark, BigQuery, and GCP Dataflow. Part of this project was experimenting with different data platforms such as the Azure Data Platform with Datafactory and Synapse.
-- Handled the sampling pipeline of training data from the datalake.
+- Built ETL pipelines using PySpark, BigQuery, and GCP Dataflow.
+- Worked on the sampling pipeline of training data from the datalake for the models.
 - Integrated data validation, quality checks, and monitoring for production readiness.
 - The models were deployed in a microservices architecture using Docker and Kubernetes.
-- Ensured full GDPR compliance via anonymisation and access control measures.
 
 **Backend & Infrastructure**
 
-- Refactored legacy Django services for modularity and reduced duplication.
+- Worked on the Django microservice at TechWolf and other microservices to streamline objects handling and storage requirements.
+- Created and maintained other Flask or FastAPI Microservices to integrate it within the TechWolf ecosystem.
 - Deployed AI components in containerized environments using Docker and Kubernetes.
 
 **Research & Baekeland Work**
 
-- Developed career pathing models using dynamic embeddings and sequential modeling (Transformers, Temporal Attention).
-- Prototyped skill representations with NMF and VAE for benchmarking tasks.
-- Researched and adapted recent work like LaborLLM and CAREER to build realistic job transition models.
+- Experimented with career pathing models with transformer-based embedding models.  
+- The goal of the research was the enhancement of TechWolf proprietary models and usecases with sequential and temporal information (through for example temporal attention).
+- Researched and worked with novel job vacancy models such as LaborLLM and CAREER to build realistic job transition models.
 
 **Technologies:**  
-Python, PyTorch, Transformers, LLMs, PySpark, AWS (Bedrock, S3), Azure(Data Factory, Synapse), GCP (Vertex AI, BigQuery, Dataflow), , Docker, Kubernetes, ONNX, Django, GitLab CI/CD
+Python, PyTorch, Transformers, LLMs, PySpark, AWS (Bedrock, S3), GCP (BigQuery, Dataflow, Vertex AI), Docker, Kubernetes, Django, Flask, FastAPI, GitLab CI/CD
 
 .. raw:: html
 
