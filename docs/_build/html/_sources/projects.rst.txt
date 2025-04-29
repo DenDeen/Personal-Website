@@ -20,7 +20,7 @@ Certifications
    :width: 70%
    :figclass: logo
 
-*   **Summary:** I completed the Huggingface Agent certification, which involvs building your own `Custom Agent <https://huggingface.co/spaces/DenDeen/Final_Assignment_Template/>`_. 
+*   **Summary:** I completed the Huggingface Agent certification, which involvs building your own `Custom Code Agent <https://huggingface.co/spaces/DenDeen/GAIA-Agent/tree/main/>`_. 
 *   **Solutions:** The project focused on creating an agent capable of performing various tasks from the `GAIA <https://huggingface.co/spaces/gaia-benchmark/leaderboard/>`_ benchmark. The code agent is capable of a variaty of tasks required for the benchmark including text generation, and audio processing.
 *   **Tech Stack:** Python, Huggingface Smolagents, Gradio, LangChain
 
