@@ -44,7 +44,7 @@
 
       <div class="hero-buttons">
          <a href="projects.html" class="button">My Projects</a>
-         <a href="experiences.html" class="button">See Experiences</a>
+         <a href="experiences.html" class="button">Work History</a>
          <a href="contact.html" class="button">Get In Touch</a>
       </div>
    </div>
